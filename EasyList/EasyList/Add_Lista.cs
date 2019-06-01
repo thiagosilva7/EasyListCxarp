@@ -19,8 +19,7 @@ namespace EasyList
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            String texto = textBox1.Text;
-            window.localStorage.setItem('lista', texto);
+            
         }
     }
 }

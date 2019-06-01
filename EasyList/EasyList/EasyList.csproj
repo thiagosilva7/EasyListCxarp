@@ -64,6 +64,9 @@
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>..\..\..\..\Documents\Bunifu_UI_v1.52\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Management" />
@@ -84,6 +87,7 @@
     <Compile Include="Add_Lista.Designer.cs">
       <DependentUpon>Add_Lista.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="F_gerenciaLista.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -135,6 +139,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="EasyList_TemporaryKey.pfx" />
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

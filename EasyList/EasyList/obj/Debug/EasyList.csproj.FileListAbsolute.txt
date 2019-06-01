@@ -36,3 +36,12 @@ C:\Users\Schultz\Desktop\EasyList\EasyList\obj\Debug\EasyList.csproj.CopyComplet
 C:\Users\Schultz\Desktop\EasyList\EasyList\obj\Debug\EasyList.exe
 C:\Users\Schultz\Desktop\EasyList\EasyList\obj\Debug\EasyList.pdb
 C:\Users\Schultz\Desktop\EasyList\EasyList\obj\Debug\EasyList.Add_Lista.resources
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.csprojAssemblyReference.cache
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.Add_Lista.resources
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.F_gerenciaLista.resources
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.F_gerenciaProdutos.resources
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.F_inicio.resources
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.F_main.resources
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.Properties.Resources.resources
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.csproj.GenerateResource.cache
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.csproj.CoreCompileInputs.cache
