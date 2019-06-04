@@ -45,3 +45,15 @@ C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debu
 C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.Properties.Resources.resources
 C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.csproj.GenerateResource.cache
 C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.csproj.CoreCompileInputs.cache
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\bin\Debug\EasyList.exe.config
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\bin\Debug\EasyList.exe.manifest
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\bin\Debug\EasyList.application
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\bin\Debug\EasyList.exe
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\bin\Debug\EasyList.pdb
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.exe.manifest
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.application
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.csproj.CopyComplete
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.exe
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.pdb
