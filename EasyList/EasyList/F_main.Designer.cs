@@ -36,8 +36,10 @@
             this.bunifuCustomLabel3 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.bunifuCustomLabel4 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.button1 = new System.Windows.Forms.Button();
-            this.email = new System.Windows.Forms.TextBox();
-            this.password = new System.Windows.Forms.TextBox();
+            this.email = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.password = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -125,19 +127,62 @@
             // 
             // email
             // 
-            this.email.Location = new System.Drawing.Point(284, 299);
-            this.email.Multiline = true;
+            this.email.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.email.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.email.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.email.HintForeColor = System.Drawing.Color.Empty;
+            this.email.HintText = "";
+            this.email.isPassword = false;
+            this.email.LineFocusedColor = System.Drawing.Color.Blue;
+            this.email.LineIdleColor = System.Drawing.Color.Gray;
+            this.email.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.email.LineThickness = 3;
+            this.email.Location = new System.Drawing.Point(252, 281);
+            this.email.Margin = new System.Windows.Forms.Padding(4);
             this.email.Name = "email";
-            this.email.Size = new System.Drawing.Size(268, 35);
-            this.email.TabIndex = 6;
+            this.email.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.email.Size = new System.Drawing.Size(331, 44);
+            this.email.TabIndex = 8;
+            this.email.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
             // password
             // 
-            this.password.Location = new System.Drawing.Point(284, 352);
-            this.password.Multiline = true;
+            this.password.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.password.Font = new System.Drawing.Font("Century Gothic", 9.75F);
+            this.password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.password.HintForeColor = System.Drawing.Color.Empty;
+            this.password.HintText = "";
+            this.password.isPassword = true;
+            this.password.LineFocusedColor = System.Drawing.Color.Blue;
+            this.password.LineIdleColor = System.Drawing.Color.Gray;
+            this.password.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.password.LineThickness = 3;
+            this.password.Location = new System.Drawing.Point(252, 343);
+            this.password.Margin = new System.Windows.Forms.Padding(4);
             this.password.Name = "password";
-            this.password.Size = new System.Drawing.Size(268, 35);
-            this.password.TabIndex = 7;
+            this.password.Size = new System.Drawing.Size(331, 44);
+            this.password.TabIndex = 9;
+            this.password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(172, 293);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(55, 22);
+            this.label1.TabIndex = 10;
+            this.label1.Text = "Email";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Montserrat", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(158, 356);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(87, 22);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Password";
             // 
             // F_main
             // 
@@ -145,6 +190,8 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
             this.ClientSize = new System.Drawing.Size(835, 537);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.password);
             this.Controls.Add(this.email);
             this.Controls.Add(this.panel1);
@@ -173,7 +220,9 @@
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel3;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel4;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox email;
-        private System.Windows.Forms.TextBox password;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox email;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox password;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
     }
 }

@@ -58,7 +58,10 @@ namespace EasyList
                     {
                         if (!String.IsNullOrEmpty(response))
                         {
-                            MessageBox.Show("Os valores são" + response, "Alerta do sistema", MessageBoxButtons.OK);
+                            //MessageBox.Show("Os valores são" + response, "Alerta do sistema", MessageBoxButtons.OK);
+                            Visible = false;
+                            F_inicio f_Inicio = new F_inicio();
+                            f_Inicio.Show();
                         }
                         else
                         {
@@ -71,7 +74,7 @@ namespace EasyList
                     }
                     
                 }
-                catch (Exception ex)
+                catch (Exception)
                 {
                     MessageBox.Show("Erro no lado do servidor.", "Alerta do sistema", MessageBoxButtons.OK);
                 }

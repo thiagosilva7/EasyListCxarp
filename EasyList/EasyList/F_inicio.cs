@@ -23,5 +23,12 @@ namespace EasyList
             f_GerenciaLista.Show();
             Visible = false;
         }
+
+        private void BunifuCustomLabel2_Click(object sender, EventArgs e)
+        {
+            Visible = false;
+            F_main f_Main = new F_main();
+            f_Main.Show();
+        }
     }
 }

@@ -87,6 +87,7 @@
     <Compile Include="Add_Lista.Designer.cs">
       <DependentUpon>Add_Lista.cs</DependentUpon>
     </Compile>
+    <Compile Include="Entidades\LocalStorage.cs" />
     <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="F_gerenciaLista.cs">
       <SubType>Form</SubType>
