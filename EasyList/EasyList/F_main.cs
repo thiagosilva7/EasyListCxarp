@@ -23,7 +23,19 @@ namespace EasyList
     {
         public F_main()
         {
+
             InitializeComponent();
+            /*  Login login = new Login();
+              if (login.id != 0)
+              {
+                  F_inicio f_Inicio = new F_inicio();
+                  f_Inicio.Show();
+                  Visible = false;
+              }
+              else {
+                  InitializeComponent();
+              }
+              */
 
         }
 
@@ -35,7 +47,7 @@ namespace EasyList
         private void Button1_Click(object sender, EventArgs e)
         {
 
-            if ((email.Text == "") && (password.Text ==""))
+            if ((email.Text == "") && (password.Text == ""))
             {
                 MessageBox.Show("Informe os dados necessarios", "Alerta!", MessageBoxButtons.OK);
             }
@@ -65,7 +77,7 @@ namespace EasyList
                             //MessageBox.Show("Os valores são" + response, "Alerta do sistema", MessageBoxButtons.OK);
                             LocalStorage localStorage = new LocalStorage();
                             Login login = JsonNet.Deserialize<Login>(response);
-                            MessageBox.Show("Os valores são" + login.id, "Alerta do sistema", MessageBoxButtons.OK);
+                            //   MessageBox.Show("Os valores são" + login.id, "Alerta do sistema", MessageBoxButtons.OK);
                             Visible = false;
                             F_inicio f_Inicio = new F_inicio();
                             f_Inicio.Show();
@@ -79,7 +91,7 @@ namespace EasyList
                     {
                         MessageBox.Show("Erro no servidor:" + response, "Alerta do sistema", MessageBoxButtons.OK);
                     }
-                    
+
                 }
                 catch (Exception ex)
                 {
@@ -87,6 +99,31 @@ namespace EasyList
                 }
             }
 
+        }
+
+        private void Email_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void F_main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Password_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Password_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                F_inicio f_Inicio = new F_inicio();
+                f_Inicio.Show();
+                Visible = false;
+            }
         }
     }
 }

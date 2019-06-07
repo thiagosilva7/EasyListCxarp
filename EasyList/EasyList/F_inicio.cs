@@ -30,5 +30,10 @@ namespace EasyList
             F_main f_Main = new F_main();
             f_Main.Show();
         }
+
+        private void BunifuCustomLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -160,6 +160,7 @@
             this.email.Name = "email";
             this.email.Size = new System.Drawing.Size(421, 22);
             this.email.TabIndex = 12;
+            this.email.TextChanged += new System.EventHandler(this.Email_TextChanged);
             // 
             // password
             // 
@@ -168,6 +169,8 @@
             this.password.PasswordChar = '*';
             this.password.Size = new System.Drawing.Size(421, 22);
             this.password.TabIndex = 13;
+            this.password.TextChanged += new System.EventHandler(this.Password_TextChanged);
+            this.password.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Password_KeyDown);
             // 
             // F_main
             // 
@@ -188,6 +191,7 @@
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "F_main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Load += new System.EventHandler(this.F_main_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
