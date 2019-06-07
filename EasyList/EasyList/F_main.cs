@@ -11,6 +11,10 @@ using System.Windows.Forms;
 using Newtonsoft.Json;
 using System.IO;
 using System.Net;
+using System.Net.Http;
+using System.Net.Http.Headers;
+using Json.Net;
+
 
 
 namespace EasyList
@@ -59,6 +63,9 @@ namespace EasyList
                         if (!String.IsNullOrEmpty(response))
                         {
                             //MessageBox.Show("Os valores são" + response, "Alerta do sistema", MessageBoxButtons.OK);
+                            LocalStorage localStorage = new LocalStorage();
+                            Login login = JsonNet.Deserialize<Login>(response);
+                            MessageBox.Show("Os valores são" + login.id, "Alerta do sistema", MessageBoxButtons.OK);
                             Visible = false;
                             F_inicio f_Inicio = new F_inicio();
                             f_Inicio.Show();
@@ -74,9 +81,9 @@ namespace EasyList
                     }
                     
                 }
-                catch (Exception)
+                catch (Exception ex)
                 {
-                    MessageBox.Show("Erro no lado do servidor.", "Alerta do sistema", MessageBoxButtons.OK);
+                    MessageBox.Show("Erro no lado do servidor." + ex, "Alerta do sistema", MessageBoxButtons.OK);
                 }
             }
 

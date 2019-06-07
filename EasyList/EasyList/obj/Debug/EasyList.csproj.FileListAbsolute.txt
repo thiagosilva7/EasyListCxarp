@@ -78,3 +78,4 @@ C:\Users\Schultz\Desktop\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.appl
 C:\Users\Schultz\Desktop\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.csproj.CopyComplete
 C:\Users\Schultz\Desktop\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.exe
 C:\Users\Schultz\Desktop\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.pdb
+C:\Users\Schultz\Desktop\EasyListCxarp\EasyList\EasyList\bin\Debug\Json.Net.dll

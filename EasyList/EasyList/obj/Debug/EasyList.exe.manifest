@@ -54,14 +54,26 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EasyList.exe" size="127992">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EasyList.exe" size="129016">
       <assemblyIdentity name="EasyList" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>2UlV9/BowEYJw8kGwLaTFbItOG67Po3I8MmoXHgRgUY=</dsig:DigestValue>
+        <dsig:DigestValue>r0sudsZoBh+tjq+VCqsvEKH+0PU7AqkCFlWeZXS0L5M=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Json.Net.dll" size="19456">
+      <assemblyIdentity name="Json.Net" version="1.0.16.1" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xpmK4y1ZIk+wveYHCZWrf9T0cz+X4ltypJsCyGaHqKc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

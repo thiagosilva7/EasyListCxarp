@@ -6,14 +6,11 @@ using System.Threading.Tasks;
 
 namespace EasyList.Entidades
 {
-    class LocalStorage
+    class Login
     {
-
-        public string id { get; set; }
-        public string inativo { get; set; }
+        public int id { get; set; }
         public string nome { get; set; }
-
-
-
+        public Boolean inativo { get; set; }
+   
     }
 }

@@ -64,6 +64,9 @@
     <Reference Include="Bunifu_UI_v1.52">
       <HintPath>..\..\..\..\Documents\Bunifu_UI_v1.52\Bunifu_UI_v1.52.dll</HintPath>
     </Reference>
+    <Reference Include="Json.Net, Version=1.0.16.1, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Json.Net.1.0.16\lib\netstandard2.0\Json.Net.dll</HintPath>
+    </Reference>
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -88,6 +91,7 @@
       <DependentUpon>Add_Lista.cs</DependentUpon>
     </Compile>
     <Compile Include="Entidades\LocalStorage.cs" />
+    <Compile Include="Entidades\Login.cs" />
     <Compile Include="Entidades\Usuario.cs" />
     <Compile Include="F_gerenciaLista.cs">
       <SubType>Form</SubType>
