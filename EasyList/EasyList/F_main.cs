@@ -125,5 +125,12 @@ namespace EasyList
                 Visible = false;
             }
         }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            F_main f_Main = new F_main();
+            f_Main.Show();
+            this.Close();
+        }
     }
 }

@@ -35,5 +35,10 @@ namespace EasyList
         {
 
         }
+
+        private void Panel8_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
