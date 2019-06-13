@@ -79,3 +79,4 @@ C:\Users\Schultz\Desktop\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.cspr
 C:\Users\Schultz\Desktop\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.exe
 C:\Users\Schultz\Desktop\EasyListCxarp\EasyList\EasyList\obj\Debug\EasyList.pdb
 C:\Users\Schultz\Desktop\EasyListCxarp\EasyList\EasyList\bin\Debug\Json.Net.dll
+C:\Users\Andromeda\Desktop\C# Front\git\EasyListCxarp\EasyList\EasyList\bin\Debug\Json.Net.dll
